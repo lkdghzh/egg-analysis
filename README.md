@@ -32,7 +32,11 @@ $ npm stop
 
 [egg]: https://eggjs.org
 
-
+### 调试
+```
+cd root
+node --inspect-brk node_modules/egg-bin/bin/egg-bin.js dev
+```
 ```
 2019-07-29T11:37:12.660Z egg-core:plugin Loaded app plugins: []
 2019-07-29T11:37:12.661Z egg-core:plugin Loaded egg plugins: ["onerror","session","i18n","watcher","multipart","security","development","logrotator","schedule","static","jsonp","view"]
